@@ -1,0 +1,11 @@
+TransactionStartDate,TransactionEndDate,TransactionType,TransID,TransAmount,TransReceiver,TransSender
+2023-01-01 08:30:00,2023-01-01 08:30:10,Pay Bill,LC123A,1500.00,ABC Company,John Doe
+2023-01-01 09:15:22,2023-01-01 09:15:28,Send Money,MB456B,2000.00,Jane Smith,Samuel Otieno
+2023-01-01 10:45:11,2023-01-01 10:45:15,Pay Bill,LC789C,750.00,KPLC,David Kamau
+2023-01-01 11:20:05,2023-01-01 11:20:08,Send Money,MD101D,3000.00,Mary Wanjiku,Robert Omondi
+2023-01-01 12:05:33,2023-01-01 12:05:37,Pay Bill,ME202E,2500.00,Safaricom Ltd,Grace Njoki
+2023-01-01 13:30:21,2023-01-01 13:30:25,Send Money,MF303F,1200.00,George Maina,Faith Wambui
+2023-01-01 14:45:19,2023-01-01 14:45:23,Withdrawal,MG404G,5000.00,Bank Account,Carol Wangari
+2023-01-01 15:20:17,2023-01-01 15:20:22,Pay Bill,MH505H,1800.00,Water Services,Thomas Mwangi
+2023-01-01 16:10:45,2023-01-01 16:10:50,Send Money,MI606I,4500.00,Ann Karimi,Joseph Muli
+2023-01-01 17:30:12,2023-01-01 17:30:16,Deposit,MJ707J,10000.00,M-Pesa Agent,Patricia Chepkorir
