@@ -1,0 +1,11 @@
+TransactionStartDate,TransactionEndDate,TransactionType,TransID,TransAmount,TransReceiver,TransSender,TransactionDuration,TransactionDate,TransactionHour,TransactionDayOfWeek,TransactionMonth,AmountCategory,TransactionFee,NetAmount,TransactionCategory,SenderInitials,ReceiverInitials
+2023-01-01 08:30:00,2023-01-01 08:30:10,Pay Bill,LC123A,1500.0,ABC Company,John Doe,10.0,2023-01-01,8,Sunday,January,Medium,7.5,1492.5,Payment,JD,AC
+2023-01-01 09:15:22,2023-01-01 09:15:28,Send Money,MB456B,2000.0,Jane Smith,Samuel Otieno,6.0,2023-01-01,9,Sunday,January,Medium,10.0,1990.0,Transfer,SO,JS
+2023-01-01 10:45:11,2023-01-01 10:45:15,Pay Bill,LC789C,750.0,KPLC,David Kamau,4.0,2023-01-01,10,Sunday,January,Small,7.5,742.5,Payment,DK,K
+2023-01-01 11:20:05,2023-01-01 11:20:08,Send Money,MD101D,3000.0,Mary Wanjiku,Robert Omondi,3.0,2023-01-01,11,Sunday,January,Large,15.0,2985.0,Transfer,RO,MW
+2023-01-01 12:05:33,2023-01-01 12:05:37,Pay Bill,ME202E,2500.0,Safaricom Ltd,Grace Njoki,4.0,2023-01-01,12,Sunday,January,Large,12.5,2487.5,Payment,GN,SL
+2023-01-01 13:30:21,2023-01-01 13:30:25,Send Money,MF303F,1200.0,George Maina,Faith Wambui,4.0,2023-01-01,13,Sunday,January,Medium,6.0,1194.0,Transfer,FW,GM
+2023-01-01 14:45:19,2023-01-01 14:45:23,Withdrawal,MG404G,5000.0,Bank Account,Carol Wangari,4.0,2023-01-01,14,Sunday,January,Large,25.0,4975.0,Deposit/Withdrawal,CW,BA
+2023-01-01 15:20:17,2023-01-01 15:20:22,Pay Bill,MH505H,1800.0,Water Services,Thomas Mwangi,5.0,2023-01-01,15,Sunday,January,Medium,9.0,1791.0,Payment,TM,WS
+2023-01-01 16:10:45,2023-01-01 16:10:50,Send Money,MI606I,4500.0,Ann Karimi,Joseph Muli,5.0,2023-01-01,16,Sunday,January,Large,22.5,4477.5,Transfer,JM,AK
+2023-01-01 17:30:12,2023-01-01 17:30:16,Deposit,MJ707J,10000.0,M-Pesa Agent,Patricia Chepkorir,4.0,2023-01-01,17,Sunday,January,Very Large,50.0,9950.0,Deposit/Withdrawal,PC,MA
