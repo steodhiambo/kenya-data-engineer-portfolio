@@ -1,0 +1,33 @@
+{
+  "etl_config": {
+    "input_file_path": "mpesa_sample.csv",
+    "output_dir": "transformed_data",
+    "output_filename": "transformed_mpesa_data.csv",
+    "date_format": "%Y-%m-%d %H:%M:%S",
+    "amount_precision": 2,
+    "transaction_fee_rules": {
+      "threshold": 1000,
+      "fee_rate_low": 0.01,
+      "fee_rate_high": 0.005
+    }
+  },
+  "data_validation": {
+    "required_columns": [
+      "TransactionStartDate",
+      "TransactionEndDate", 
+      "TransactionType",
+      "TransID",
+      "TransAmount",
+      "TransReceiver",
+      "TransSender"
+    ],
+    "amount_range": {
+      "min": 0,
+      "max": 100000
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
