@@ -8,13 +8,15 @@
     "transaction_fee_rules": {
       "threshold": 1000,
       "fee_rate_low": 0.01,
-      "fee_rate_high": 0.005
+      "fee_rate_high": 0.005,
+      "min_fee": 5,
+      "max_fee": 100
     }
   },
   "data_validation": {
     "required_columns": [
       "TransactionStartDate",
-      "TransactionEndDate", 
+      "TransactionEndDate",
       "TransactionType",
       "TransID",
       "TransAmount",
@@ -22,9 +24,16 @@
       "TransSender"
     ],
     "amount_range": {
-      "min": 0,
-      "max": 100000
-    }
+      "min": 50,
+      "max": 150000
+    },
+    "allowed_transaction_types": [
+      "Pay Bill",
+      "Send Money",
+      "Withdrawal", 
+      "Deposit",
+      "Airtime Purchase"
+    ]
   },
   "logging": {
     "level": "INFO",
